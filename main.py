@@ -11,7 +11,7 @@ from utils import solver
 
 @app.route("/")
 def index():
-    return flask.redirect("https://github.com/Euro-pol/turnaround-api")
+    return flask.redirect("https://www.google.com")
 
 @app.route("/solve", methods=["POST"])
 def solve():
