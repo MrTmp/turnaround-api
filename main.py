@@ -5,7 +5,6 @@ import json
 import time
 import os
 
-setup_solver()
 app = flask.Flask(__name__)
 from utils import solver
 
